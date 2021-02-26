@@ -1,0 +1,6 @@
+<svg  xmlns="http://www.w3.org/2000/svg">   
+    <circle cx="100" cy="100" r="60" fill="steelblue"/>
+    <text x="100" y="800" font-size="50" fill="none" stroke="indianred" stroke-width="2">Salut</text>
+    <ellipse cx="800" cy="50" rx="30" ry="20" fill="pink"/>
+    <line x1="200" y1="10" x2="800" y2="800" stroke="brown" />
+</svg>
