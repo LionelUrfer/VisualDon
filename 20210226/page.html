@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        circle {
+            fill: yellow
+        }
+
+        circle:hover {
+            fill: blue
+        }
+
+        text {
+            fill: none;
+            stroke: indianred;
+            font-size: 100px;
+            stroke-width: 2;
+            stroke-dasharray: 10 2;
+        }
+
+        text:hover {
+            fill: blue;
+            stroke: indianred;
+            font-size: 100px;
+            stroke-width: 2;
+            stroke-dasharray: 10 2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <svg viewBox="0 0 1000 1000">
+        <circle cx="100" cy="100" r="60" />
+        <text x="100" y="800">Salut</text>
+        <ellipse id="ell" cx="800" cy="50" rx="30" ry="20" fill="blue" />
+        <line x1="200" y1="20" x2="800" y2="800" stroke="brown" stroke-width="30" stroke-linecap="round" />
+    </svg>
+
+    <script>
+        const ell = document.getElementById('ell')
+        let isBlue = true
+        ell.addEventListener('click', () => {
+            isBlue = !isBlue
+            ell.setAttribute('fill', isBlue ? 'blue' : 'red')
+        })
+    </script>
+
+</body>
+
+</html>
