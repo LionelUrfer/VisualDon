@@ -9,4 +9,4 @@ L'utilisation des différents agents énergétiques, en la répartissant selon l
 ## Quel est le format? (type de fichier...)
 XLSX
 ## Idées de visualisation
-Il serait interréssant de fait des camamberts par ressourses d'énérgie en montrant quels secteurs d'activité utilisent le plus ces ressources.
+Il serait interréssant de faire des camamberts par ressourses d'énérgie en montrant quels secteurs d'activité utilisent le plus ces ressources.
