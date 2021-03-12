@@ -1,8 +1,8 @@
 - Décrivez ce qu'est la programmation réactivité?
-  La programmtation réactive permet la mise à jour automatique des variables dépendaants
-  d'une variables ayant subit une modification (un evenement).
+  La programmation réactive permet la mise à jour automatique des variables dépendants
+  d'une variable ayant subi une modification (un évènement).
 
-- Comment l'utiliser en javascript?
+- Comment l'utiliser en JavaScript?
   Il faut utiliser des librairies comme SVELT par exemple.
   
 - Quelle est l'alternative?
